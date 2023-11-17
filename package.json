@@ -1,5 +1,15 @@
 {
+  "name": "rock-on-api-mvp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dinhostork/rock-on-api-mvp.git",
+  "author": "Dinho Stork <dinhostork@live.com>",
+  "scripts": {
+    "start:dev": "NODE_ENV=development nodemon --exec ts-node src/index.ts"
+  },
+  "license": "MIT",
   "devDependencies": {
+    "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
